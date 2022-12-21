@@ -107,18 +107,18 @@ class PageComponent extends Component {
     const schemaDescription = intl.formatMessage({ id: 'Page.schemaDescription' });
     const metaTitle = title || schemaTitle;
     const metaDescription = description || schemaDescription;
-    const facebookImgs = facebookImages || [
+    const facebookImgs = [
       {
         name: 'facebook',
-        url: `${canonicalRootURL}${facebookImage}`,
+        url: "https://assets.bunkinglife.com/uploads/62278d2f-2d95-4229-b82a-4f7b3b33d359/2022-12-15T07:01:13.616Z-22186a62-ea3e-42af-8162-418cd915aff7-1200x630.jpeg",
         width: 1200,
         height: 630,
       },
     ];
-    const twitterImgs = twitterImages || [
+    const twitterImgs = [
       {
         name: 'twitter',
-        url: `${canonicalRootURL}${twitterImage}`,
+        url: "https://assets.bunkinglife.com/uploads/62278d2f-2d95-4229-b82a-4f7b3b33d359/2022-12-15T07:01:13.616Z-22186a62-ea3e-42af-8162-418cd915aff7-600x314.jpeg",
         width: 600,
         height: 314,
       },
